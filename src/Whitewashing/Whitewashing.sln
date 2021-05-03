@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31213.239
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whitewashing.Console", "Whitewashing.Console\Whitewashing.Console.csproj", "{0078C44D-E87C-41E8-93AB-464A3A9AF6B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0078C44D-E87C-41E8-93AB-464A3A9AF6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0078C44D-E87C-41E8-93AB-464A3A9AF6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0078C44D-E87C-41E8-93AB-464A3A9AF6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0078C44D-E87C-41E8-93AB-464A3A9AF6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3652A3A5-215F-40A9-A918-8236F3A0C2F5}
+	EndGlobalSection
+EndGlobal

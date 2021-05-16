@@ -12,7 +12,7 @@
     using VkNet.Model;
     using VkNet.Model.Attachments;
 
-    public class VkFetcherService
+    public class VkFetcherService : IVkFetcherService
     {
         private const int MaxRps = 3;
         private const int PostChunkSize = 100;

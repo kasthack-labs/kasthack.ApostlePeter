@@ -13,6 +13,11 @@
 [![Patreon pledges](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkasthack%26type%3Dpledges&style=flat)](https://patreon.com/kasthack)
 [![Patreon patrons](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkasthack%26type%3Dpatrons&style=flat)](https://patreon.com/kasthack)
 
+## Look, mom, I'm on the TV
+
+[![image](https://user-images.githubusercontent.com/1292818/212538446-373e1b97-67de-4759-9864-ea735df4625f.png)](https://www.fontanka.ru/2021/04/27/69888722/)
+
+
 ## Использование
 
 https://t.me/defbk_bot

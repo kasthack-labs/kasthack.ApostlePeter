@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AIOnlyUnderstandsText" xml:space="preserve">
+    <value>Не надо пытаться накормить меня картинками или голосовухами. Цивилизованный AI понимает только текст.</value>
+  </data>
+  <data name="ErrorWhileProcessingProfile" xml:space="preserve">
+    <value>Всё развалилось при попытке отрезолвить ссылку {0}: {1}.\n\n Попробуйте позже</value>
+    <comment>{0} is replace with uri, {1} is replace with error message</comment>
+  </data>
+  <data name="ErrorWhileProcessingProfileV2" xml:space="preserve">
+    <value>Всё развалилось при попытке проверить аккаунт {0}. Если у вас приватный профиль, это могло быть причиной.: {1}</value>
+    <comment>{0} is replace with profile, {1} is replace with error message</comment>
+  </data>
+  <data name="FoundNPostsAndMGroups" xml:space="preserve">
+    <value>Найдено {0} террористических постов и {1} групп.</value>
+    <comment>{0} is replaced with post count, {1} is replace with group count</comment>
+  </data>
+  <data name="Greeting" xml:space="preserve">
+    <value>Привет, мой маленький экстремист(ка). Отправь мне ссылку на страницу ВК, по которой нужны рекомендации по очистке.\n\nРепорты о проблемах / запрос фич можно отправить сюда: https://t.me/joinchat/LCYlmetoVigzODQ6</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Группы:</value>
+  </data>
+  <data name="IHaventFoundAnything" xml:space="preserve">
+    <value>Я ничего не нашёл, но, возможно, ФСБ сумеет. Если у вас закрытый профиль, это могло быть причиной.</value>
+  </data>
+  <data name="InvalidDomain" xml:space="preserve">
+    <value>Домен {0} не похож на vk.com.</value>
+    <comment>{0} is replaced with domain</comment>
+  </data>
+  <data name="InvalidProfileLink" xml:space="preserve">
+    <value>Это не похоже на ссылку на профиль вк. Обычно та выглядит как 'https://vk.com/id1' или 'https://vk.com/durov'</value>
+  </data>
+  <data name="InvalidUri" xml:space="preserve">
+    <value>Это('{0}') совсем не похоже на ссылку. @&lt;username&gt; не поддерживаются, используйте https://vk.com/&lt;username&gt;</value>
+    <comment>{0} is replaced with link</comment>
+  </data>
+  <data name="JsonReportForNerds" xml:space="preserve">
+    <value>Репорт в JSON для нердов</value>
+  </data>
+  <data name="NotAVkProfile" xml:space="preserve">
+    <value>Это не профиль ВК. Группы пока не обрабатываются(делаю). Обычно ссылка выглядит как 'https://vk.com/id1' или 'https://vk.com/durov'</value>
+  </data>
+  <data name="Posts" xml:space="preserve">
+    <value>Посты:</value>
+  </data>
+  <data name="RecheckManuallyWarning" xml:space="preserve">
+    <value>Warning: перепроверяйте за мной. Я могу не определить какие-то упоминания. Если вы нашли пропущенный пост/группу, напишите об этом в чат разработки бота -- автор поправит.
+
+</value>
+  </data>
+  <data name="Thinking" xml:space="preserve">
+    <value>Думаем... Пока использую один токен на всех пользователей, так что, возможно, это надолго</value>
+  </data>
+  <data name="YouAreGoingToJailForTwentyYears" xml:space="preserve">
+    <value>Тут лет на 20 наберется.</value>
+  </data>
+  <data name="YourProfileIsPrivate" xml:space="preserve">
+    <value>Похоже, у вас приватный профиль. Поменяйте настройки приватности.</value>
+  </data>
+</root>

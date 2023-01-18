@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: kasthack.ApostlePeter/Dockerfile
+    image: kasthackphoenix/kasthack.apostle-peter
+    container_name: kasthack-apostle-peter
+    restart: unless-stopped
+    environment:
+      - ApostlePeter__Telegram__Token
+      - ApostlePeter__Vk__ServiceToken
+      - ApostlePeter__Vk__UserToken

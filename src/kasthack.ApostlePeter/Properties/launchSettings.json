@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "kasthack.ApostlePeter": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
